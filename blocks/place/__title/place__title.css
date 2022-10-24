@@ -4,13 +4,18 @@
 	font-size: 72px;
 	line-height: 76px;
 	font-weight: 900;
-	color: #ffffff;
-	order: 1;
 }
 
-@media screen and (min-width: 426px) and (max-width: 770px) {
+@media screen and (max-width: 1026px) {
 	.place__title {
-	  max-width: 96%;
+	  font-size: 7.031vw;
+	  line-height: 76px;
+	}
+}
+
+@media screen and (max-width: 770px) {
+	.place__title {
+	  max-width: 97%;
 	  font-size: 42px;
 	  line-height: 46px;
 	}

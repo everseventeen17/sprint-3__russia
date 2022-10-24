@@ -6,13 +6,13 @@
 	margin: 0 auto 92px auto;
 }
 
-@media screen and (min-width: 770px) and (max-width: 1026px) {
+@media screen and (max-width: 1026px) {
 	.photo-grid {
 	  grid-template-columns: repeat( 3, 1fr);
 	}
 }
 
-@media screen and (min-width: 426px) and (max-width: 770px) {
+@media screen and (max-width: 770px) {
 	.photo-grid {
 	  max-width: calc(100% - 48px);
 	  grid-template-columns: repeat( 2, 1fr);

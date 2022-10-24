@@ -3,14 +3,21 @@
 	max-width: 984px;
 }
 
-@media screen and (min-width: 770px) and (max-width: 1026px) {
+@media screen and (max-width: 1026px) {
 	.places {
 	  max-width: calc(100% - 96px);
 	}
 }
 
-@media screen and (min-width: 426px) and (max-width: 770px) {
+@media screen and (max-width: 770px) {
 	.places {
 	  max-width: calc(100% - 48px);
+	}
+}
+
+@media screen and (max-width: 426px) {
+	.places {
+		margin: 0 auto 66px;
+		max-width: 100%;
 	}
 }

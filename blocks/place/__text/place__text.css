@@ -1,6 +1,3 @@
-.place__text {
-	order: 4;
-}
 
 @media screen and (max-width: 426px) {
 	.place__text {

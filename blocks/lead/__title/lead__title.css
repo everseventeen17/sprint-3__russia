@@ -7,15 +7,21 @@
 	line-height: 100px;
 }
 
-  @media screen and (max-width: 770px) {
+@media screen and (max-width: 770px) {
 	.lead__title {
 	  font-size: 12.5vw;
-	  line-height: 12vw;
+	  line-height: 13.021vw;
 	}
 }
 
-  @media screen and (max-width: 426px) {
+@media screen and (max-width: 426px) {
 	.lead__title {
 	  margin: 0 auto 16px auto;
+	}
+}
+
+@media screen and (max-width: 426px) {
+	.lead__title {
+	  line-height: 13.750vw;
 	}
 }
