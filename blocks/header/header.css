@@ -5,13 +5,13 @@
 	max-width: calc(100% - 96px);
 }
 
-@media screen and (min-width: 426px) and (max-width: 1026px) {
+@media screen and (max-width: 1026px) {
 	.header {
 	  margin: 28px auto 48px auto;
 	}
 }
 
-@media screen and (min-width: 426px) and (max-width: 770px) {
+@media screen and (max-width: 770px) {
 	.header {
 	  max-width: calc(100% - 48px);
 	}
